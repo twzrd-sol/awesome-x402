@@ -439,6 +439,15 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [Vault-0](https://github.com/0-Vault/Vault-0) - Encrypted secret vault, agent monitor, and x402 wallet for OpenClaw. Handles 402 detection, EIP-3009 signing, and policy-gated auto-settlement.
 - [CardZero](https://cardzero.ai) - Payment wallet for AI agents on Base L2. Each agent gets an ERC-4337 smart contract wallet with owner-controlled spending rules (per-tx limits, daily caps, whitelist, freeze). x402 buyer support via `POST /v1/x402/pay`. [ClawHub](https://clawhub.ai/mrocker/cardzero) | [GitHub](https://github.com/mrocker/CardZero) | [API Docs](https://cardzero.ai/docs/api)
 
+### Asia Intelligence & Bilingual AI
+
+AI-powered research and translation services for the Asian market — no other x402 provider covers Chinese/Japanese bilingual needs.
+
+- [Hermes Asia Intelligence](https://base-worker-01.j23726919.workers.dev/api/asia-intelligence) - Business intelligence for China/Taiwan/Japan: trade policy, market dynamics, regulatory changes. $0.02 USDC/call. 日英双语输出.
+- [Hermes Japanese Research](https://base-worker-01.j23726919.workers.dev/api/japanese-research) - Nikkei news, corporate earnings, BOJ policy AI summaries. $0.02 USDC/call.
+- [Hermes Bilingual Bridge](https://base-worker-01.j23726919.workers.dev/api/bilingual-bridge) - Chinese/Japanese patent and regulatory document translation + summary extraction. $0.03 USDC/call.
+
+
 ### Agent-to-Agent (A2A)
 
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Agent commerce protocol.
